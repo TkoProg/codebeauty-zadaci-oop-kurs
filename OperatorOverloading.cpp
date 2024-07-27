@@ -16,7 +16,6 @@ public:
     bool operator==(const YouTubeChannel &channel) const { // const goes here because we NEED to make sure that the program won't change this, only check
         return this->Name==channel.Name;
     }
-
 };
 
 ostream& operator<<(ostream& COUT, YouTubeChannel& ytChannel) {
